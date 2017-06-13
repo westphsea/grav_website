@@ -14,8 +14,8 @@ Harbour Centre 2146
 Another Name  
 <anothername@somewhere.edu>  
 ##### Quick Links:
-[Student Academic Information System](http://localhost/grav-skeleton-course-hub-site/activate_user)  
-[University Information System](https://canvas.sfu.ca/courses/25492/assignments)  
-[Mail](https://canvas.sfu.ca/courses/25492/quizzes)  
-[Document Tracking System](https://canvas.sfu.ca/courses/25492/discussion_topics)  
-[Socialized Tuition System](https://canvas.sfu.ca/grades)  
+[Student Academic Information System](http://sais.up.edu.ph)  
+[University Information System](https://uis.up.edu.ph)  
+[Mail](https://mail.up.edu.ph)  
+[Document Tracking System](https://dts.upou.edu.ph)  
+[Socialized Tuition System](https://sts.up.edu.ph)  
