@@ -1,5 +1,7 @@
 ---
 title: Sidebar
+access:
+    site.login: true
 published: false
 routable: false
 ---
