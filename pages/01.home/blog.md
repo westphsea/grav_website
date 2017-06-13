@@ -1,7 +1,7 @@
 ---
 title: Home
 access:
-    site.login: true
+    site.login: false
 body_classes: 'header-image fullwidth'
 child_type: item
 content:
