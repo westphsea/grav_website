@@ -1,9 +1,17 @@
 ---
 title: Sidebar
-access:
-    site.login: true
 published: false
 routable: false
+content:
+    items: '@self.children'
+    limit: 5
+    order:
+        by: date
+        dir: desc
+    pagination: '1'
+hidegitrepoeditlink: false
+access:
+    site.login: true
 ---
 
 ##### Course Facilitators
@@ -19,3 +27,5 @@ Another Name
 [Mail](https://mail.up.edu.ph)  
 [Document Tracking System](https://dts.upou.edu.ph)  
 [Socialized Tuition System](https://sts.up.edu.ph)  
+##### Contact our Admins:
+[Send them an e-mail!](https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com)
