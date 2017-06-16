@@ -20,4 +20,4 @@ pagination: true
 ---
 
 ![](checked.png) 
-## Advisories****
+## Advisories
