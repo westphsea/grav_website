@@ -19,4 +19,4 @@ feed:
 pagination: true
 ---
 
-![](checked.png)## Advisories
+![](checked.png) Advisories
