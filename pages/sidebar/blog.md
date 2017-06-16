@@ -30,6 +30,7 @@ Another Name
 ##### Contact our Admins:
 [Send them an e-mail!](https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com)
 
+<pre><code>
 <link rel="stylesheet" type="text/css" href="ping.css">
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
 		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
@@ -38,3 +39,4 @@ Another Name
 			</li>
 		</ul>
 		<script src="pingscript.js"></script>
+        </code></pre>
