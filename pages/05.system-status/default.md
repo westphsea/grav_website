@@ -1,18 +1,25 @@
 ---
-title: Sidebar
-published: false
-routable: false
+title: 'System Status'
+body_classes: 'blog group-blog infinite-scroll'
+menu: 'System Status'
+sitemap:
+    changefreq: monthly
+    priority: 1.03
 content:
     items: '@self.children'
-    limit: 5
     order:
         by: date
         dir: desc
-    pagination: '1'
-hidegitrepoeditlink: false
-access:
-    site.login: true
+    limit: 10
+    pagination: true
+feed:
+    description: 'Sample Blog Description'
+    limit: 10
+pagination: false
 ---
+
+## Status
+
 
 ##### Course Facilitators
 Some Name  

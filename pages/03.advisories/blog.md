@@ -19,4 +19,4 @@ feed:
 pagination: true
 ---
 
-## Basic advises
+## Advisories
