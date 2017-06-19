@@ -16,5 +16,5 @@ content:
             - _contact
 ---
 
-## Featured Posts
-### Occaecati curabitur autem mollit! Vestibulum veritatis. Aliquam orci cumque curabitur.
+## ![](megaphone.png) Featured Posts
+### This contains the featured items in the site.

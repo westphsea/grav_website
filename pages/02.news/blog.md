@@ -19,5 +19,4 @@ feed:
 pagination: true
 ---
 
-## Latest News
-### Change these titles to anything you'd like in the admin panel or markdown files.
+## ![](eyeglasses.png) Latest News

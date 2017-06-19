@@ -1,15 +1,18 @@
 ---
-vimeo:
-  src: https://player.vimeo.com/video/109354891
-  width: 570
-  height: 321
+image:
+    src: '![](hall.png)'
+    width: 570
+    height: 321
 class: home-content
 buttons:
-    - text: Get In Touch
-      url: http://www.getgrav.org
-      class: button radius
+    -
+        text: 'Get In Touch'
+        url: 'http://www.getgrav.org'
+        class: 'button radius'
 ---
 
-### See What We’re Doing
+# ![](search.png) What we do
 
-Quasi animi in? Risus. Modi ullamco, ultricies! Fames nonummy eros mollit. Accusamus purus fames cumque, phasellus nostra dolores, nam atque exercitationem, porro.
+The University of the Philippines as the leading public learning and research institution in employing innovative and sustainable development strategies towards achieving inclusive national growth and prosperity.
+ 
+UP ITDC advances dynamic solutions that facilitate holistic development through sustainable design practices and methodical project planning enabling the University to benefit from programs that highlight resource generation.
