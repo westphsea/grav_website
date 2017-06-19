@@ -33,8 +33,10 @@ Another Name
 <link rel="stylesheet" type="text/css" href="ping.css">
 <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<link rel="stylesheet" type="text/css" href="ping.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 <ul data-bind="foreach:servers">
-	<li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span>
-	</li>
+	<li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span></li>
 </ul>
 <script src="pingscript.js"></script>
