@@ -26,7 +26,7 @@ pagination: false
 ##### Contact our Admins:
 [Send them an e-mail!](https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com)
 ### System Status:
-<link rel="stylesheet" type="text/css" href="ping.css">
+<link rel="stylesheet" type="text/css" href="./ping.css">
 <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 <link rel="stylesheet" type="text/css" href="ping.css">
@@ -36,4 +36,4 @@ pagination: false
 	<li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span>
 	</li>
 </ul>
-<script src="pingscript.js"></script>
+<script src="./pingscript.js"></script>
