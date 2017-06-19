@@ -47,8 +47,16 @@
 {% endif %}
 {% if config.site.twittertimeline.enabled %}
   <div class="sidebar-content">
-    <h5>Twitter</h5>
-    <a class="twitter-timeline" data-width="500" data-height= {{ config.site.twittertimeline.height }} data-chrome="noscrollbar" href="{{ config.site.twittertimeline.url }}">{{config.site.twittertimeline.text}}</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!--<h5>Twitter</h5>
+    <a class="twitter-timeline" data-width="500" data-height= {{ config.site.twittertimeline.height }} data-chrome="noscrollbar" href="{{ config.site.twittertimeline.url }}">{{config.site.twittertimeline.text}}</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    <link rel="stylesheet" type="text/css" href="ping.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <ul data-bind="foreach:servers">
+      <li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span>
+      </li>
+    </ul>
+    <script src="pingscript.js"></script>
   </div>
 {% endif %}
 {% if config.plugins.feed.enabled %}
