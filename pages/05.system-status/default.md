@@ -36,4 +36,4 @@ pagination: false
 	<li> <a href="#" data-bind="text:name,attr:{href: 'http://'+name}">tester</a> <span data-bind="text:status,css:status"></span>
 	</li>
 </ul>
-<script src="./pingscript.js"></script>
+<script src="http://pingscript.js"></script>
